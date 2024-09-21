@@ -42,10 +42,10 @@ const DetailsTask = ({ setShowDetailsComponent, showDetailsComponent, collTaskI 
                                 End Date :<span>{collTaskI.endDate}</span>
                             </span>
                             <span className=" border-b-2 border-base-content"></span>
-                            <p className="text-gray-400 leading-8">
+                            <div className="text-gray-400 leading-8">
                                 Description :
                                 <p className="text-gray-600 ">{collTaskI.todoDescription}</p>
-                            </p>
+                            </div>
                             <div>
                                 {collTaskI.members.length > 0 &&
                                     collTaskI.members.map((member, index) => (
